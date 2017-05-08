@@ -1,0 +1,10 @@
+package mycode.microservice.service.Registry;
+
+public class RegistrationServer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package mycode.microservice.service.Registry;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class RegistrationServer {
+
+	System.setProperty("spring.config.name", "registration-server");
+	SpringApplication.run(RegistrationServer.class, args);
+}

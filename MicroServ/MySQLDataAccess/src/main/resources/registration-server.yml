@@ -1,0 +1,22 @@
+# Configure this Discovery Server
+eureka:
+  instance:
+    hostname: localhost
+  client:  # Not a client, don't register with yourself
+    registerWithEureka: false
+    fetchRegistry: false
+     
+server:
+  port: 9080   # HTTP (Tomcat) port
+
+spring:
+    jpa:
+       database: MYSQL
+       hibernate:
+           ddl-auto: none
+    datasource:
+       url: jdbc:mysql://localhost:3306/userdb
+       username: spuser
+       password: spuser
+       driver-class-name: com.mysql.jdbc.Driver
+               

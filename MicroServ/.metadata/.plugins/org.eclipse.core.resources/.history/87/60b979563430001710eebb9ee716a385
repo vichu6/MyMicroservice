@@ -1,0 +1,19 @@
+package mycode.microservices.service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.Import;
+
+import mycode.data.user.*;
+import io.pivotal.microservices.accounts.AccountsConfiguration;
+
+public class UserServer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package mycode.microservice.service.Registry;
+
+public class RegistrationServer {
+
+	public static void main(String[] args) {
+		System.setProperty("spring.config.name", "registration-server");
+
+	}
+
+}

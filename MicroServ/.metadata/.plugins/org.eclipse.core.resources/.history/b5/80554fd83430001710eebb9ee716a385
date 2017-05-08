@@ -1,0 +1,25 @@
+package mycode.microservices.service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.Import;
+
+import mycode.data.user.*;
+
+@EnableAutoConfiguration
+@EnableDiscoveryClient
+public class UserServer {
+
+	@Autowired
+	protected UserRepository userRepository;
+	
+	public static void main(String[] args) {
+
+		System.setProperty("spring.config.name", "users-server");
+		SpringApplication.run(UserServer.class, args);
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package mycode.data.service.user;
+
+public class MySQLTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

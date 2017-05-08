@@ -1,0 +1,9 @@
+mycode\microservice\service\ServiceDiscovery\ServiceInstanceRestController.class
+mycode\data\user\UserRepository.class
+mycode\data\user\UserController.class
+mycode\microservices\service\UserService\UserServer.class
+mycode\microservice\service\Registry\RegistrationServer.class
+mycode\data\user\User.class
+mycode\microservice\service\ServiceDiscovery\ServiceDiscoverClientApplication.class
+mycode\data\user\MySQLTester.class
+mycode\microservice\service\Main.class

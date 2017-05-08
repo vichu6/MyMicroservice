@@ -1,0 +1,13 @@
+package mycode.microservice.service.Registry;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class RegistrationServer {
+
+	System.setProperty("spring.config.name", "registration-server");
+	
+	
+}
